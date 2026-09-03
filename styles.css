@@ -48,7 +48,8 @@ h3 { font-size: 17px; }
 .search-field span { font-size: 18px; color: var(--clay); }
 .search-field label { display: block; font-size: 10px; color: var(--muted); margin-bottom: 2px; }
 .search-field > div { min-width: 0; flex: 1 1 auto; }
-.search-field input { width: 100%; min-width: 0; border: 0; outline: 0; color: var(--ink); font-weight: 600; background: transparent; text-overflow: clip; }
+.search-field input, .search-field select { width: 100%; min-width: 0; border: 0; outline: 0; color: var(--ink); font-weight: 600; background: transparent; text-overflow: clip; }
+.search-field select { appearance: none; cursor: pointer; }
 .hero-visual { position: relative; height: 390px; }
 .hero-visual img { width: 78%; height: 350px; object-fit: cover; border-radius: 130px 130px 8px 8px; filter: saturate(.78); }
 .visual-note { position: absolute; right: 0; bottom: 12px; width: 174px; padding: 17px; background: white; border-radius: 10px; box-shadow: var(--shadow); }
